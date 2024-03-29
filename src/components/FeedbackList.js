@@ -1,5 +1,5 @@
 import FeedbackItem from "./FeedbackItem";
-function FeedbackList({ feedback,handleDelete }) {
+function FeedbackList({ feedback, handleDelete }) {
   if (!feedback || feedback.length === 0) {
     return <p>no feedback yet</p>;
   }

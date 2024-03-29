@@ -216,3 +216,7 @@ input:focus {
     width: 80%;
   }
 }
+
+.card.reverse {
+  background-color: rgba(0, 0, 0, 0.4); color: #fff;
+} 
